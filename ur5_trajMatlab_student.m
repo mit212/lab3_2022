@@ -22,7 +22,6 @@ endEffector = "tool0";
 % representation for its orientation.
 
 taskInit = trvec2tform([[0 0 0.35]])*axang2tform([0 1 0 pi]);
-taskInit = trvec2tform([[0 0.3 0.1]])*eul2tform([0 0 0]);
 
 % MATLAB's built-in inverse kinematics solver uses an inverseKinematics
 % object that considers the particular structure of the robot being
